@@ -9,5 +9,9 @@ export class HeaderComponent implements OnInit {
   title = 'Lista de tareas';
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
+
+  toggleAddTask() {
+    console.log('tarea boton');
+  }
 }
