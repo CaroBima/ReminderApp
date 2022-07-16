@@ -1,3 +1,4 @@
-<app-tasks-item *ngFor="let task of tasks" [task]="task" (borrarTask)="deleteTask(task)">
+<app-tasks-item *ngFor="let task of tasks" [task]="task" (borrarTask)="deleteTask(task)"
+    (toggleReminder)="toggleReminder(task)">
 
 </app-tasks-item>

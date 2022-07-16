@@ -10,15 +10,22 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class TasksItemComponent implements OnInit {
   @Input() task: Task = TASKS[0];
-
   @Output() borrarTask: EventEmitter<Task> = new EventEmitter();
+  @Output() toggleReminder: EventEmitter<Task> = new EventEmitter();
+
   faTimes = faTimes;
   constructor() {}
 
   ngOnInit() {}
 
+  //para borrar la tarea del listado de tareas y del db.json
   public onDelete(task: Task) {
     this.borrarTask.emit(task);
     console.log(task);
+  }
+
+  //Cambiar el color de la tarjeta para activar o desactivar el reminder
+  public onToggleReminder(task) {
+    this.toggleReminder.emit(task);
   }
 }
