@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { HttpClient, HttpHandler } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { TASKS } from 'src/app/mock-tasks';
 import { Task } from 'src/app/Tasks';
@@ -7,11 +8,16 @@ import { Task } from 'src/app/Tasks';
   providedIn: 'root',
 })
 export class TaskService {
-  constructor() {}
+  private apiUrl = ' http://localhost:5000/tasks'; //direccion del servidor de bbdd
+  constructor(private http: HttpClient) {}
 
   public getTasks(): Observable<Task[]> {
     //asincronico, por eso observable
-    const tasks = of(TASKS);
-    return tasks;
+    return this.http.get<Task[]>(this.apiUrl);
+  }
+
+  deleteTask(task: Task): Observable<Task> {
+    const url = `${this.apiUrl}/${task.id}`;
+    return this.http.delete<Task>(url);
   }
 }
