@@ -16,7 +16,7 @@
       "id": 4,
       "text": "Llamar a José",
       "day": "Agosto 9 a las 12:00",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
