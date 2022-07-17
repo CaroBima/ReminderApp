@@ -1,34 +1,22 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Terminar primer módulo de Angular",
-      "day": "Agosto 5 a las 12:00",
-      "reminder": true
+      "text": "Comer Comida",
+      "day": "Julio 18 a las 20:00",
+      "reminder": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "text": "Aprender Angular",
-      "day": "Agosto 5 a las 19:00",
-      "reminder": true
+      "text": "Llamar a Maria Jose ",
+      "day": "Julio 19 a las 10:00",
+      "reminder": true,
+      "id": 3
     },
     {
-      "id": 4,
-      "text": "Llamar a José",
-      "day": "Agosto 9 a las 12:00",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Mirar la novela",
-      "day": "Julio 17 a las 12:00",
-      "reminder": false
-    },
-    {
-      "id": 5,
-      "text": "Enviar mail a Juana Molina",
-      "day": "Julio 19 a las 08:00",
-      "reminder": true
+      "text": "Alimentar al mono de tres cabezas",
+      "day": "Julio 19 a las 12:00",
+      "reminder": true,
+      "id": 4
     }
   ]
 }

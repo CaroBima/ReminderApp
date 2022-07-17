@@ -14,7 +14,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = ' http://localhost:5000/tasks'; //direccion del servidor de bbdd
+  private apiUrl = 'http://localhost:5000/tasks'; //direccion del servidor de bbdd
   constructor(private http: HttpClient) {}
 
   public getTasks(): Observable<Task[]> {
@@ -30,5 +30,9 @@ export class TaskService {
   public updateTaskReminder(task: Task): Observable<Task> {
     const url = `${this.apiUrl}/${task.id}`;
     return this.http.put<Task>(url, task, httpOptions);
+  }
+
+  public addTask(task: Task): Observable<Task> {
+    return this.http.post<Task>(this.apiUrl, task, httpOptions);
   }
 }
