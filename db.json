@@ -17,6 +17,12 @@
       "day": "Julio 19 a las 12:00",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "Comprar mayonesa",
+      "day": "Julio 18 a las 22:00",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
