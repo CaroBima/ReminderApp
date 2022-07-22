@@ -12,8 +12,8 @@
 * Agregado un footer
 
 
+
 ### Funcionalidades por agregar:
-* Mejorar estilos del footer
 * Mejorar estilos del about
 * Editar una tarea y su fecha
 * Agregar notificacion (reminder)
