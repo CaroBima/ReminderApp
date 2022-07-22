@@ -1,6 +1,8 @@
 # ShoppingList
 
+## Pantallas:
 
+<img src="https://github.com/CaroBima/ShoppingListIonic/blob/master/Capturas/capturaPantallas.jpg" align="center">
 ## Una simple lista de compras hecha con Ionic y almacenando los datos en un archivo Json
 
 
