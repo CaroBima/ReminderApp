@@ -8,9 +8,13 @@
 * Muestra el listado de tareas cargas
 * Agregado de tareas
 * Borrado de tareas
+* Agregado un acerca de
+* Agregado un footer
 
 
 ### Funcionalidades por agregar:
+* Mejorar estilos del footer
+* Mejorar estilos del about
 * Editar una tarea y su fecha
 * Agregar notificacion (reminder)
 
