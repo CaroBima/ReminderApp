@@ -18,4 +18,4 @@
 * Editar una tarea y su fecha
 * Agregar notificacion (reminder)
 
-(Ejercicio del Módulo 3 del Argentina Programa, intentando convertirlo en una app para el celu)
+(Ejercicio del Módulo 3 del Argentina Programa)
