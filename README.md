@@ -5,12 +5,16 @@
 
 
 ### Funcionalidades ya implementadas:
-* Muestra el listado de tareas cargas
+* Muestra el listado de tareas cargadas
 * Agregado de tareas
 * Borrado de tareas
+* Agregado un acerca de
+* Agregado un footer
 
 
 ### Funcionalidades por agregar:
+* Mejorar estilos del footer
+* Mejorar estilos del about
 * Editar una tarea y su fecha
 * Agregar notificacion (reminder)
 
